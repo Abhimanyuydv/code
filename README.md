@@ -1,5 +1,5 @@
 # code
-paint 
+1.paint 
 import React, { useState } from "react";
 import "../styles/App.css";
 import Selection from "./Selection";
@@ -87,7 +87,7 @@ export default function Selection({ applyColor }) {
   );
 }
 
-debugging challenge keyword 
+2.debugging challenge keyword 
 
 import React, { useEffect, useState } from "react";
 import '../styles/App.css';
@@ -119,7 +119,7 @@ button{
     align-items: center;
 }
 
-Greetings with Props
+3.Greetings with Props
 
 import React from "react";
 import '../styles/App.css';
@@ -146,7 +146,7 @@ export default function Welcome(props) {
   )
 }
 
-Render React Component
+4.Render React Component
 
 import React, {Component, useState} from "react";
 import '../styles/App.css';
@@ -162,7 +162,7 @@ const App = () => {
 
 export default App;
 
-Rendering Multiple Components with React
+5.Rendering Multiple Components with React
 
 import React, {Component, useState} from "react";
 import '../styles/App.css';
@@ -182,7 +182,7 @@ const App = () => {
 
 export default App;
 
-React Dynamic Calc
+6.React Dynamic Calc
 
 import React,{useState,useEffect} from 'react'
 import '../styles/App.css';
@@ -220,7 +220,7 @@ const App = () => {
 
 export default App;
 
-Holiday Cities List
+7.Holiday Cities List
 
 import React, { Component, useState } from "react";
 import "../styles/App.css";
@@ -296,7 +296,7 @@ class App extends Component {
 
 export default App;
 
-React stateful list - 1
+8.React stateful list - 1
 
 import React, { useState } from "react";
 
@@ -347,7 +347,7 @@ const App = () => {
 
 export default App;
 
-Import Export React
+9.Import Export React
 import React, { Component, useState } from "react";
 import '../styles/App.css';
 import Heading from "./Heading";
@@ -402,7 +402,8 @@ function SubmitButton() {
 }
 export default SubmitButton
 
-Youtube-liker---React-
+10.Youtube-liker---React-
+
 import React from 'react'
 import '../styles/App.css';
 import like from '../like.svg';
@@ -422,7 +423,8 @@ const handleClick = () =>{
 
 export default App;
 
-Marco Polo
+11.Marco Polo
+
 import React, { useState } from 'react'
 // import '../styles/App.css';
 const App = () => {
@@ -446,7 +448,8 @@ const App = () => {
 
 export default App;
 
-React-Array-As-Props
+12.React-Array-As-Props
+
 import React from 'react'
 import '../styles/App.css';
 const arr = JSON.parse(window.localStorage.getItem('props') || `["hello","world"]`) // do not change
@@ -471,7 +474,8 @@ const App = () => {
 
 export default App;
 
-tv remote
+13.tv remote
+
 import React from 'react'
 import '../styles/App.css';
 const App = () => {
@@ -568,7 +572,8 @@ function colorchange()
 
 export default App;
   
-react text colour
+14.react text colour
+  
   import React, {useEffect, useState} from 'react'
 import '../styles/App.css';
 
@@ -590,7 +595,8 @@ const handleClick=()=>{
 
 export default App;
   
-  Outputting-Dynamic-data-in-
+  15.Outputting-Dynamic-data-in-
+  
   import React,{useState,useEffect} from 'react'
 import '../styles/App.css';
 const App = () => {
@@ -619,7 +625,8 @@ function handleclick(e){
 
 export default App;
   
-  Relatives List React
+  16.Relatives List React
+  
   import React, {Component, useState} from "react";
 import '../styles/App.css';
 
@@ -640,7 +647,8 @@ class App extends Component {
 
 export default App;
   
-  React Component on DOM Node
+  17.React Component on DOM Node
+  
   import React from "react";
 
 export default function App() {
@@ -657,7 +665,8 @@ import App from "./components/App";
 
 ReactDOM.render(<App />, document.getElementById("root"));
 
-event handler 1
+18.event handler 1
+  
   import React from 'react'
 import '../styles/App.css';
 const App = () => {
@@ -674,7 +683,8 @@ const App = () => {
 }
 export default App;
   
-  Event-Handler---2-
+  19.Event-Handler---2-
+  
   import React from 'react'
 import '../styles/App.css';
 const App = () => {
@@ -699,7 +709,8 @@ const App = () => {
 
 export default App;
   
-  Event-Handler---3
+  20.Event-Handler---3
+  
   import React from 'react'
 import '../styles/App.css';
 const App = () => {
@@ -727,7 +738,8 @@ const App = () => {
 
 export default App;
   
-  Toggle-Buttons-
+  21.Toggle-Buttons-
+  
   import React, {useState} from 'react'
 import '../styles/App.css';
 const App = () => {
@@ -758,7 +770,8 @@ const App = () => {
 
 export default App;
   
-  Event Handler - 4
+ 22. Event Handler - 4
+  
   import React from 'react'
 import '../styles/App.css';
 const App = () => {
@@ -790,7 +803,8 @@ const App = () => {
 
 export default App;
   
-  event handler 5
+ 23. event handler 5
+  
   import React from "react";
 import '../styles/App.css';
 const App = () => {
@@ -816,7 +830,8 @@ const App = () => {
 
 export default App;
   
-  react drum machine
+  24.react drum machine
+  
   app.js
   import React, { useState } from "react";
 import "../styles/App.css";
@@ -980,7 +995,8 @@ function Pads({ power }) {
 
 export default Pads;
   
-  Newspaper
+ 25. Newspaper
+  
   import React, {useState, useEffect} from 'react';
 import '../styles/App.css';
 import data from '../data.js';
@@ -1138,7 +1154,8 @@ function App() {
 
 export default App;
 
-Adding List Names
+26.Adding List Names
+
 import React, { useState, useEffect } from 'react'
 import '../styles/App.css';
 import List from "./List";
@@ -1170,7 +1187,8 @@ const App = () => {
 
 export default App;
 
-Dynamic Context (1) Settings
+27.Dynamic Context (1) Settings
+
 upadte setting.js
 import React from "react";
 import { useContext } from "react";
@@ -1212,7 +1230,8 @@ const Wrapper = (props) => {
 };
 export { Wrapper, UserContext };
 
-Context-Theme-Toggler-
+28.Context-Theme-Toggler-
+
 LocalThemedBox.js
 import React, { useContext, useEffect, useState } from 'react';
 import { ThemeContext } from './ThemeProvider';
@@ -1305,7 +1324,8 @@ const ThemeToggleButton = () =>{
 }
 export {ThemeToggleButton}
 
-Conditional Logging in Counter
+29.Conditional Logging in Counter
+
 import React from 'react'
 import '../styles/App.css';
 
@@ -1339,7 +1359,8 @@ class App extends React.Component{
 
 export default App;
 
-Odd-Even-Components-
+30.Odd-Even-Components-
+
 import React from 'react'
 import '../styles/App.css';
 
@@ -1399,7 +1420,8 @@ class App extends React.Component {
 
 export default App;
 
-First Class Based Component
+31.First Class Based Component
+
 import React from 'react'
 import '../styles/App.css';
 
@@ -1437,7 +1459,8 @@ class App extends React.Component {
 export default App;
 
 
-Class-based-Component
+32.Class-based-Component
+
 import React from 'react'
 import '../styles/App.css';
 
